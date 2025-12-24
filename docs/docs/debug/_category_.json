@@ -1,0 +1,8 @@
+{
+  "label": "Debug",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "The debug category contains useful tools for debugging code."
+  }
+}

@@ -1,0 +1,1569 @@
+Class: AIFeatures*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: AbuseCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: AdminCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: AnimatedCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: AppAuthorizeApi
+  Method: set_window(*args, **kwargs)
+  Method: hide(*args, **kwargs)
+  Method: close(*args, **kwargs)
+  Method: discordLogin(*args, **kwargs)
+  Method: url_change_callback_app(*args, **kwargs)
+  Method: url_change_callback_app_connect(*args, **kwargs)
+Class: AppCreateApi
+  Method: set_window(*args, **kwargs)
+  Method: close(*args, **kwargs)
+  Method: discordAppLogin(*args, **kwargs)
+  Method: url_callback_change(*args, **kwargs)
+Class: BotTokenApi
+  Method: set_window(*args, **kwargs)
+  Method: close(*args, **kwargs)
+  Method: discordAppLogin(*args, **kwargs)
+  Method: getAppToken(*args, **kwargs)
+Class: Button
+  Method: render(*args, **kwargs)
+Class: CallbackStore*
+  Method: register(*args, **kwargs)
+  Method: get(*args, **kwargs)
+  Method: call(*args, **kwargs)
+Class: Card
+  Method: create_group(*args, **kwargs)
+  Method: create_ui_element(*args, **kwargs)
+  Method: render(*args, **kwargs)
+Class: CardContainer
+  Method: create_container(*args, **kwargs)
+  Method: create_card(*args, **kwargs)
+  Method: render(*args, **kwargs)
+Class: Checkbox
+  Method: render(*args, **kwargs)
+Class: CleanModal
+  Method: on_submit(self, interaction: discord_bot.interactions.Interaction)
+  Method: _init_children(self) -> 'List[Item]'
+  Method: on_error(self, interaction: 'Interaction[ClientT]', error: 'Exception', /) -> 'None'
+  Method: _refresh(self, interaction: 'Interaction', components: 'Sequence[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: _scheduled_task(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]')
+  Method: _dispatch_submit(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: to_dict(self) -> 'Dict[str, Any]'
+  Method: to_components(self) -> 'List[Dict[str, Any]]'
+  Method: add_item(self, item: 'Item[Any]') -> 'Self'
+  Method: remove_item(self, item: 'Item[Any]') -> 'Self'
+  Method: clear_items(self) -> 'Self'
+  Method: _is_layout(self) -> 'TypeGuard[LayoutView]'
+  Method: _BaseView__timeout_task_impl(self) -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: has_components_v2(self) -> 'bool'
+  Method: _refresh_timeout(self) -> 'None'
+  Method: find_item(self, id: 'int', /) -> 'Optional[Item[Self]]'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: on_timeout(self) -> 'None'
+  Method: _start_listening_from_store(self, store: 'ViewStore') -> 'None'
+  Method: _dispatch_timeout(self)
+  Method: _dispatch_item(self, item: 'Item', interaction: 'Interaction')
+  Method: stop(self) -> 'None'
+  Method: is_finished(self) -> 'bool'
+  Method: is_dispatching(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: wait(self) -> 'bool'
+  Method: walk_children(self) -> 'Generator[Item[Any], None, None]'
+Class: CommandLogic
+Class: ConnectionPatch*
+  Method: fetch_access_token(self)
+Class: CustomStatusApi
+  Method: set_window(*args, **kwargs)
+  Method: hide(*args, **kwargs)
+  Method: close(*args, **kwargs)
+  Method: connect(*args, **kwargs)
+  Method: disconnect(*args, **kwargs)
+Class: DumpCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: FunCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: FuncStore*
+  Method: inject(self, code)
+  Method: deject_all(*args, **kwargs)
+Class: GenCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: Group
+  Method: create_group(*args, **kwargs)
+  Method: create_ui_element(*args, **kwargs)
+  Method: render(*args, **kwargs)
+Class: Image
+  Method: render(*args, **kwargs)
+Class: ImageCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: InfoCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: Input
+  Method: render(*args, **kwargs)
+Class: InsightsCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: LookupCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: MainApi*
+  Method: set_window(*args, **kwargs)
+  Method: show(*args, **kwargs)
+  Method: minimize(*args, **kwargs)
+  Method: hide(*args, **kwargs)
+  Method: close(*args, **kwargs)
+  Method: customCallback(*args, **kwargs)
+  Method: isWeb(*args, **kwargs)
+  Method: getWebConfig(*args, **kwargs)
+  Method: setWebConfig(*args, **kwargs)
+  Method: enableWebVersion(*args, **kwargs)
+  Method: getAllNotifications(*args, **kwargs)
+  Method: clearAllNotifications(*args, **kwargs)
+  Method: deleteNotification(*args, **kwargs)
+  Method: getCustomUITabs(*args, **kwargs)
+  Method: webLogout(*args, **kwargs)
+  Method: getClipboardText(*args, **kwargs)
+  Method: copyToClipboard(*args, **kwargs)
+  Method: openURL(*args, **kwargs)
+  Method: openDevPortal(*args, **kwargs)
+  Method: getAppTokenInput(*args, **kwargs)
+  Method: saveKeyToAppdata(*args, **kwargs)
+  Method: saveTokenToConfig(*args, **kwargs)
+  Method: verifyDevPortalPass(*args, **kwargs)
+  Method: verifyDevPortalMfa(*args, **kwargs)
+  Method: add_custom_function(*args, **kwargs)
+  Method: getAvailableLoginOptions(*args, **kwargs)
+  Method: chooseLogin(*args, **kwargs)
+  Method: addAccount(self, profileName, token)
+  Method: addWebAccount(*args, **kwargs)
+Class: Memory*
+Class: MiscCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: MultiSniper
+  Method: run_bots(*args, **kwargs)
+  Method: create_on_connect_handler(self, sniperbot)
+  Method: create_on_message_handler(self, sniperbot)
+Class: NSFWCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: NUI*
+  Method: update(*args, **kwargs)
+  Method: reload(*args, **kwargs)
+Class: NightyHelpSelect*
+  Method: callback(self, interaction: discord_bot.interactions.Interaction)
+  Method: add_option(self, *, label: 'str', value: 'str' = ..., description: 'Optional[str]' = None, emoji: 'Optional[Union[str, Emoji, PartialEmoji]]' = None, default: 'bool' = False) -> 'None'
+  Method: append_option(self, option: 'SelectOption') -> 'None'
+  Method: to_component_dict(self) -> 'SelectMenuPayload'
+  Method: _refresh_component(self, component: 'SelectMenu') -> 'None'
+  Method: _refresh_state(self, interaction: 'Interaction', data: 'SelectMessageComponentInteractionData') -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: _is_v2(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: _run_checks(self, interaction: 'Interaction[ClientT]') -> 'bool'
+  Method: _update_view(self, view) -> 'None'
+  Method: _has_children(self) -> 'TypeGuard[ContainerItem[V]]'
+  Method: interaction_check(self, interaction: 'Interaction[ClientT]', /) -> 'bool'
+Class: NightyHelpView*
+  Method: to_components(self) -> 'List[Dict[str, Any]]'
+  Method: add_item(self, item: 'Item[Any]') -> 'Self'
+  Method: remove_item(self, item: 'Item[Any]') -> 'Self'
+  Method: clear_items(self) -> 'Self'
+  Method: _is_layout(self) -> 'TypeGuard[LayoutView]'
+  Method: _init_children(self) -> 'List[Item[Self]]'
+  Method: _BaseView__timeout_task_impl(self) -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: has_components_v2(self) -> 'bool'
+  Method: _refresh_timeout(self) -> 'None'
+  Method: find_item(self, id: 'int', /) -> 'Optional[Item[Self]]'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: on_timeout(self) -> 'None'
+  Method: on_error(self, interaction: 'Interaction', error: 'Exception', item: 'Item[Any]', /) -> 'None'
+  Method: _scheduled_task(self, item: 'Item', interaction: 'Interaction')
+  Method: _start_listening_from_store(self, store: 'ViewStore') -> 'None'
+  Method: _dispatch_timeout(self)
+  Method: _dispatch_item(self, item: 'Item', interaction: 'Interaction')
+  Method: _refresh(self, components: 'List[Component]') -> 'None'
+  Method: stop(self) -> 'None'
+  Method: is_finished(self) -> 'bool'
+  Method: is_dispatching(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: wait(self) -> 'bool'
+  Method: walk_children(self) -> 'Generator[Item[Any], None, None]'
+Class: NightyUserApp*
+  Method: _get_websocket(self, guild_id: 'Optional[int]' = None, *, shard_id: 'Optional[int]' = None) -> 'DiscordWebSocket'
+  Method: _get_state(self, **options: 'Any') -> 'ConnectionState[Self]'
+  Method: _handle_ready(self) -> 'None'
+  Method: is_ws_ratelimited(self) -> 'bool'
+  Method: is_ready(self) -> 'bool'
+  Method: _run_event(self, coro: 'Callable[..., Coroutine[Any, Any, Any]]', event_name: 'str', *args: 'Any', **kwargs: 'Any') -> 'None'
+  Method: _schedule_event(self, coro: 'Callable[..., Coroutine[Any, Any, Any]]', event_name: 'str', *args: 'Any', **kwargs: 'Any') -> 'asyncio.Task'
+  Method: dispatch(self, event: 'str', /, *args: 'Any', **kwargs: 'Any') -> 'None'
+  Method: on_error(self, event_method: 'str', /, *args: 'Any', **kwargs: 'Any') -> 'None'
+  Method: _call_before_identify_hook(self, shard_id: 'Optional[int]', *, initial: 'bool' = False) -> 'None'
+  Method: before_identify_hook(self, shard_id: 'Optional[int]', *, initial: 'bool' = False) -> 'None'
+  Method: _async_setup_hook(self) -> 'None'
+  Method: setup_hook(self) -> 'None'
+  Method: login(self, token: 'str') -> 'None'
+  Method: connect(self, *, reconnect: 'bool' = True) -> 'None'
+  Method: close(self) -> 'None'
+  Method: clear(self) -> 'None'
+  Method: start(self, token: 'str', *, reconnect: 'bool' = True) -> 'None'
+  Method: run(self, token: 'str', *, reconnect: 'bool' = True, log_handler: 'Optional[logging.Handler]' = ..., log_formatter: 'logging.Formatter' = ..., log_level: 'int' = ..., root_logger: 'bool' = False) -> 'None'
+  Method: is_closed(self) -> 'bool'
+  Method: get_channel(self, id: 'int', /) -> 'Optional[Union[GuildChannel, Thread, PrivateChannel]]'
+  Method: get_partial_messageable(self, id: 'int', *, guild_id: 'Optional[int]' = None, type: 'Optional[ChannelType]' = None) -> 'PartialMessageable'
+  Method: get_stage_instance(self, id: 'int', /) -> 'Optional[StageInstance]'
+  Method: get_guild(self, id: 'int', /) -> 'Optional[Guild]'
+  Method: get_user(self, id: 'int', /) -> 'Optional[User]'
+  Method: get_emoji(self, id: 'int', /) -> 'Optional[Emoji]'
+  Method: get_sticker(self, id: 'int', /) -> 'Optional[GuildSticker]'
+  Method: get_soundboard_sound(self, id: 'int', /) -> 'Optional[SoundboardSound]'
+  Method: get_all_channels(self) -> 'Generator[GuildChannel, None, None]'
+  Method: get_all_members(self) -> 'Generator[Member, None, None]'
+  Method: wait_until_ready(self) -> 'None'
+  Method: wait_for(self, event: 'str', /, *, check: 'Optional[Callable[..., bool]]' = None, timeout: 'Optional[float]' = None) -> 'Coro[Any]'
+  Method: event(self, coro: 'CoroT', /) -> 'CoroT'
+  Method: change_presence(self, *, activity: 'Optional[BaseActivity]' = None, status: 'Optional[Status]' = None) -> 'None'
+  Method: fetch_guilds(self, *, limit: 'Optional[int]' = 200, before: 'Optional[SnowflakeTime]' = None, after: 'Optional[SnowflakeTime]' = None, with_counts: 'bool' = True) -> 'AsyncIterator[Guild]'
+  Method: fetch_template(self, code: 'Union[Template, str]') -> 'Template'
+  Method: fetch_guild(self, guild_id: 'int', /, *, with_counts: 'bool' = True) -> 'Guild'
+  Method: fetch_guild_preview(self, guild_id: 'int') -> 'GuildPreview'
+  Method: create_guild(self, *, name: 'str', icon: 'bytes' = ..., code: 'str' = ...) -> 'Guild'
+  Method: fetch_stage_instance(self, channel_id: 'int', /) -> 'StageInstance'
+  Method: fetch_invite(self, url: 'Union[Invite, str]', *, with_counts: 'bool' = True, with_expiration: 'bool' = True, scheduled_event_id: 'Optional[int]' = None) -> 'Invite'
+  Method: delete_invite(self, invite: 'Union[Invite, str]', /) -> 'Invite'
+  Method: fetch_widget(self, guild_id: 'int', /) -> 'Widget'
+  Method: application_info(self) -> 'AppInfo'
+  Method: fetch_user(self, user_id: 'int', /) -> 'User'
+  Method: fetch_channel(self, channel_id: 'int', /) -> 'Union[GuildChannel, PrivateChannel, Thread]'
+  Method: fetch_webhook(self, webhook_id: 'int', /) -> 'Webhook'
+  Method: fetch_sticker(self, sticker_id: 'int', /) -> 'Union[StandardSticker, GuildSticker]'
+  Method: fetch_skus(self) -> 'List[SKU]'
+  Method: fetch_entitlement(self, entitlement_id: 'int', /) -> 'Entitlement'
+  Method: entitlements(self, *, limit: 'Optional[int]' = 100, before: 'Optional[SnowflakeTime]' = None, after: 'Optional[SnowflakeTime]' = None, skus: 'Optional[Sequence[Snowflake]]' = None, user: 'Optional[Snowflake]' = None, guild: 'Optional[Snowflake]' = None, exclude_ended: 'bool' = False, exclude_deleted: 'bool' = True) -> 'AsyncIterator[Entitlement]'
+  Method: create_entitlement(self, sku: 'Snowflake', owner: 'Snowflake', owner_type: 'EntitlementOwnerType') -> 'None'
+  Method: fetch_premium_sticker_packs(self) -> 'List[StickerPack]'
+  Method: fetch_premium_sticker_pack(self, sticker_pack_id: 'int', /) -> 'StickerPack'
+  Method: fetch_soundboard_default_sounds(self) -> 'List[SoundboardDefaultSound]'
+  Method: create_dm(self, user: 'Snowflake') -> 'DMChannel'
+  Method: add_dynamic_items(self, *items: 'Type[DynamicItem[Item[Any]]]') -> 'None'
+  Method: remove_dynamic_items(self, *items: 'Type[DynamicItem[Item[Any]]]') -> 'None'
+  Method: add_view(self, view: 'BaseView', *, message_id: 'Optional[int]' = None) -> 'None'
+  Method: create_application_emoji(self, *, name: 'str', image: 'bytes') -> 'Emoji'
+  Method: fetch_application_emoji(self, emoji_id: 'int', /) -> 'Emoji'
+  Method: fetch_application_emojis(self) -> 'List[Emoji]'
+Class: NotificationSender*
+  Method: sendToast(self, text, logo_url='https://nighty.one/img/nighty.png', timeout=5000, on_click=None, type_='INFO', title=None, details=None)
+  Method: closeToast(self, notification=None)
+  Method: show_notification(self, text, logo_url, timeout, on_click, type_, title, details)
+  Method: close_notification(self, notification)
+  Method: closeEvent(self, event)
+Class: NotificationWorker*
+  Method: run(self)
+  Method: stop(self)
+Class: NukeModal
+  Method: on_submit(self, interaction: discord_bot.interactions.Interaction)
+  Method: _init_children(self) -> 'List[Item]'
+  Method: on_error(self, interaction: 'Interaction[ClientT]', error: 'Exception', /) -> 'None'
+  Method: _refresh(self, interaction: 'Interaction', components: 'Sequence[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: _scheduled_task(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]')
+  Method: _dispatch_submit(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: to_dict(self) -> 'Dict[str, Any]'
+  Method: to_components(self) -> 'List[Dict[str, Any]]'
+  Method: add_item(self, item: 'Item[Any]') -> 'Self'
+  Method: remove_item(self, item: 'Item[Any]') -> 'Self'
+  Method: clear_items(self) -> 'Self'
+  Method: _is_layout(self) -> 'TypeGuard[LayoutView]'
+  Method: _BaseView__timeout_task_impl(self) -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: has_components_v2(self) -> 'bool'
+  Method: _refresh_timeout(self) -> 'None'
+  Method: find_item(self, id: 'int', /) -> 'Optional[Item[Self]]'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: on_timeout(self) -> 'None'
+  Method: _start_listening_from_store(self, store: 'ViewStore') -> 'None'
+  Method: _dispatch_timeout(self)
+  Method: _dispatch_item(self, item: 'Item', interaction: 'Interaction')
+  Method: stop(self) -> 'None'
+  Method: is_finished(self) -> 'bool'
+  Method: is_dispatching(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: wait(self) -> 'bool'
+  Method: walk_children(self) -> 'Generator[Item[Any], None, None]'
+Class: PurgeModal
+  Method: on_submit(self, interaction: discord_bot.interactions.Interaction)
+  Method: _init_children(self) -> 'List[Item]'
+  Method: on_error(self, interaction: 'Interaction[ClientT]', error: 'Exception', /) -> 'None'
+  Method: _refresh(self, interaction: 'Interaction', components: 'Sequence[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: _scheduled_task(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]')
+  Method: _dispatch_submit(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: to_dict(self) -> 'Dict[str, Any]'
+  Method: to_components(self) -> 'List[Dict[str, Any]]'
+  Method: add_item(self, item: 'Item[Any]') -> 'Self'
+  Method: remove_item(self, item: 'Item[Any]') -> 'Self'
+  Method: clear_items(self) -> 'Self'
+  Method: _is_layout(self) -> 'TypeGuard[LayoutView]'
+  Method: _BaseView__timeout_task_impl(self) -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: has_components_v2(self) -> 'bool'
+  Method: _refresh_timeout(self) -> 'None'
+  Method: find_item(self, id: 'int', /) -> 'Optional[Item[Self]]'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: on_timeout(self) -> 'None'
+  Method: _start_listening_from_store(self, store: 'ViewStore') -> 'None'
+  Method: _dispatch_timeout(self)
+  Method: _dispatch_item(self, item: 'Item', interaction: 'Interaction')
+  Method: stop(self) -> 'None'
+  Method: is_finished(self) -> 'bool'
+  Method: is_dispatching(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: wait(self) -> 'bool'
+  Method: walk_children(self) -> 'Generator[Item[Any], None, None]'
+Class: PyiFrozenProvider
+  Method: _normalize_path(self, path)
+  Method: _is_relative_to_package(self, path)
+  Method: _has(self, path)
+  Method: _isdir(self, path)
+  Method: _listdir(self, path)
+  Method: get_resource_filename(self, manager, resource_name)
+  Method: get_resource_stream(self, manager, resource_name)
+  Method: get_resource_string(self, manager, resource_name)
+  Method: has_resource(self, resource_name)
+  Method: _get_metadata_path(self, name)
+  Method: has_metadata(self, name)
+  Method: get_metadata(self, name)
+  Method: get_metadata_lines(self, name)
+  Method: resource_isdir(self, resource_name)
+  Method: metadata_isdir(self, name)
+  Method: resource_listdir(self, resource_name)
+  Method: metadata_listdir(self, name)
+  Method: run_script(self, script_name, namespace)
+  Method: _fn(self, base, resource_name)
+  Method: _get(self, path)
+Class: RandomCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: RecoveryCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: RestoreApi
+  Method: set_window(*args, **kwargs)
+  Method: hide(*args, **kwargs)
+  Method: discordLogin(*args, **kwargs)
+  Method: url_callback_change(*args, **kwargs)
+  Method: restoreFirstFriend(*args, **kwargs)
+Class: SafeConsoleHandler*
+  Method: emit(self, record)
+  Method: flush(self)
+  Method: setStream(self, stream)
+  Method: get_name(self)
+  Method: set_name(self, name)
+  Method: createLock(self)
+  Method: acquire(self)
+  Method: release(self)
+  Method: setLevel(self, level)
+  Method: format(self, record)
+  Method: handle(self, record)
+  Method: setFormatter(self, fmt)
+  Method: close(self)
+  Method: handleError(self, record)
+  Method: addFilter(self, filter)
+  Method: removeFilter(self, filter)
+  Method: filter(self, record)
+Class: ScriptEngine*
+  Method: inject(self, scriptname, code)
+  Method: deject(*args, **kwargs)
+  Method: deject_all(*args, **kwargs)
+  Method: get_running_scripts(*args, **kwargs)
+  Method: get_metadata(*args, **kwargs)
+Class: Select
+  Method: _Select__items_validator(self, items)
+  Method: _Select__keys_validator(self, keys)
+  Method: render(*args, **kwargs)
+Class: ServerPaginationView
+  Method: get_embed(*args, **kwargs)
+  Method: previous_callback(self, interaction: discord_bot.interactions.Interaction)
+  Method: next_callback(self, interaction: discord_bot.interactions.Interaction)
+  Method: update_buttons(*args, **kwargs)
+  Method: to_components(self) -> 'List[Dict[str, Any]]'
+  Method: add_item(self, item: 'Item[Any]') -> 'Self'
+  Method: remove_item(self, item: 'Item[Any]') -> 'Self'
+  Method: clear_items(self) -> 'Self'
+  Method: _is_layout(self) -> 'TypeGuard[LayoutView]'
+  Method: _init_children(self) -> 'List[Item[Self]]'
+  Method: _BaseView__timeout_task_impl(self) -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: has_components_v2(self) -> 'bool'
+  Method: _refresh_timeout(self) -> 'None'
+  Method: find_item(self, id: 'int', /) -> 'Optional[Item[Self]]'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: on_timeout(self) -> 'None'
+  Method: on_error(self, interaction: 'Interaction', error: 'Exception', item: 'Item[Any]', /) -> 'None'
+  Method: _scheduled_task(self, item: 'Item', interaction: 'Interaction')
+  Method: _start_listening_from_store(self, store: 'ViewStore') -> 'None'
+  Method: _dispatch_timeout(self)
+  Method: _dispatch_item(self, item: 'Item', interaction: 'Interaction')
+  Method: _refresh(self, components: 'List[Component]') -> 'None'
+  Method: stop(self) -> 'None'
+  Method: is_finished(self) -> 'bool'
+  Method: is_dispatching(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: wait(self) -> 'bool'
+  Method: walk_children(self) -> 'Generator[Item[Any], None, None]'
+Class: SettingsCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: SnipeModal
+  Method: on_submit(self, interaction: discord_bot.interactions.Interaction)
+  Method: _init_children(self) -> 'List[Item]'
+  Method: on_error(self, interaction: 'Interaction[ClientT]', error: 'Exception', /) -> 'None'
+  Method: _refresh(self, interaction: 'Interaction', components: 'Sequence[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: _scheduled_task(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]')
+  Method: _dispatch_submit(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: to_dict(self) -> 'Dict[str, Any]'
+  Method: to_components(self) -> 'List[Dict[str, Any]]'
+  Method: add_item(self, item: 'Item[Any]') -> 'Self'
+  Method: remove_item(self, item: 'Item[Any]') -> 'Self'
+  Method: clear_items(self) -> 'Self'
+  Method: _is_layout(self) -> 'TypeGuard[LayoutView]'
+  Method: _BaseView__timeout_task_impl(self) -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: has_components_v2(self) -> 'bool'
+  Method: _refresh_timeout(self) -> 'None'
+  Method: find_item(self, id: 'int', /) -> 'Optional[Item[Self]]'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: on_timeout(self) -> 'None'
+  Method: _start_listening_from_store(self, store: 'ViewStore') -> 'None'
+  Method: _dispatch_timeout(self)
+  Method: _dispatch_item(self, item: 'Item', interaction: 'Interaction')
+  Method: stop(self) -> 'None'
+  Method: is_finished(self) -> 'bool'
+  Method: is_dispatching(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: wait(self) -> 'bool'
+  Method: walk_children(self) -> 'Generator[Item[Any], None, None]'
+Class: SoftBanModal
+  Method: on_submit(self, interaction: discord_bot.interactions.Interaction)
+  Method: _init_children(self) -> 'List[Item]'
+  Method: on_error(self, interaction: 'Interaction[ClientT]', error: 'Exception', /) -> 'None'
+  Method: _refresh(self, interaction: 'Interaction', components: 'Sequence[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: _scheduled_task(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]')
+  Method: _dispatch_submit(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: to_dict(self) -> 'Dict[str, Any]'
+  Method: to_components(self) -> 'List[Dict[str, Any]]'
+  Method: add_item(self, item: 'Item[Any]') -> 'Self'
+  Method: remove_item(self, item: 'Item[Any]') -> 'Self'
+  Method: clear_items(self) -> 'Self'
+  Method: _is_layout(self) -> 'TypeGuard[LayoutView]'
+  Method: _BaseView__timeout_task_impl(self) -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: has_components_v2(self) -> 'bool'
+  Method: _refresh_timeout(self) -> 'None'
+  Method: find_item(self, id: 'int', /) -> 'Optional[Item[Self]]'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: on_timeout(self) -> 'None'
+  Method: _start_listening_from_store(self, store: 'ViewStore') -> 'None'
+  Method: _dispatch_timeout(self)
+  Method: _dispatch_item(self, item: 'Item', interaction: 'Interaction')
+  Method: stop(self) -> 'None'
+  Method: is_finished(self) -> 'bool'
+  Method: is_dispatching(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: wait(self) -> 'bool'
+  Method: walk_children(self) -> 'Generator[Item[Any], None, None]'
+Class: SpacedLabel*
+  Method: update_text(*args, **kwargs)
+  Method: break_text_into_lines(*args, **kwargs)
+Class: SpotifyCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: Tab
+  Method: _Tab__validate_name(*args, **kwargs)
+  Method: create_container(*args, **kwargs)
+  Method: toast(*args, **kwargs)
+  Method: _Tab__getFormattedData(*args, **kwargs)
+  Method: _Tab__update(*args, **kwargs)
+  Method: _Tab__perform_update(*args, **kwargs)
+  Method: render(*args, **kwargs)
+Class: Table
+  Method: update_rows(*args, **kwargs)
+  Method: insert_rows(*args, **kwargs)
+  Method: delete_rows(*args, **kwargs)
+  Method: _Table__rows_setter(*args, **kwargs)
+  Method: _Table__toggle_row_selection(*args, **kwargs)
+  Method: _Table__get_selected_rows_ids(*args, **kwargs)
+  Method: _Table__rows_validator(*args, **kwargs)
+  Method: render(*args, **kwargs)
+Class: Text
+  Method: render(*args, **kwargs)
+Class: TextCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: ToastNotification*
+  Method: get_side_offset(self)
+  Method: set_icon_from_url(self, button, url, size=(20, 20))
+  Method: close_notification(self)
+  Method: paintEvent(self, event)
+  Method: enterEvent(self, event)
+  Method: leaveEvent(self, event)
+  Method: adjust_notification_size(self)
+  Method: slide_up(self, y_offset)
+  Method: load_logo(self, url)
+  Method: on_image_loaded(self, reply)
+  Method: show_notification(self)
+  Method: start_fade_out(self)
+  Method: close_and_remove(self)
+  Method: mousePressEvent(self, event)
+Class: ToastNotificationManager*
+  Method: ensure_notifications_visible(self)
+  Method: show_notification(self, message, logo_url='https://nighty.one/img/nighty.png', timeout=5000, on_click=None, type_='INFO', title=None, details=None, side=None)
+  Method: remove_notification(self, notification)
+  Method: reposition_notifications(self)
+Class: Toggle
+  Method: render(*args, **kwargs)
+Class: ToolsCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: TranslateCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: TrayManager*
+  Method: enqueue_action(*args, **kwargs)
+  Method: process_actions(*args, **kwargs)
+  Method: show_main_window(*args, **kwargs)
+  Method: hide_main_window(*args, **kwargs)
+  Method: close_application(*args, **kwargs)
+Class: TriggerTypingModal
+  Method: on_submit(self, interaction: discord_bot.interactions.Interaction)
+  Method: _init_children(self) -> 'List[Item]'
+  Method: on_error(self, interaction: 'Interaction[ClientT]', error: 'Exception', /) -> 'None'
+  Method: _refresh(self, interaction: 'Interaction', components: 'Sequence[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: _scheduled_task(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]')
+  Method: _dispatch_submit(self, interaction: 'Interaction', components: 'List[ModalSubmitComponentInteractionDataPayload]') -> 'None'
+  Method: to_dict(self) -> 'Dict[str, Any]'
+  Method: to_components(self) -> 'List[Dict[str, Any]]'
+  Method: add_item(self, item: 'Item[Any]') -> 'Self'
+  Method: remove_item(self, item: 'Item[Any]') -> 'Self'
+  Method: clear_items(self) -> 'Self'
+  Method: _is_layout(self) -> 'TypeGuard[LayoutView]'
+  Method: _BaseView__timeout_task_impl(self) -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: has_components_v2(self) -> 'bool'
+  Method: _refresh_timeout(self) -> 'None'
+  Method: find_item(self, id: 'int', /) -> 'Optional[Item[Self]]'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: on_timeout(self) -> 'None'
+  Method: _start_listening_from_store(self, store: 'ViewStore') -> 'None'
+  Method: _dispatch_timeout(self)
+  Method: _dispatch_item(self, item: 'Item', interaction: 'Interaction')
+  Method: stop(self) -> 'None'
+  Method: is_finished(self) -> 'bool'
+  Method: is_dispatching(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: wait(self) -> 'bool'
+  Method: walk_children(self) -> 'Generator[Item[Any], None, None]'
+Class: TrollCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: TurboSniper*
+  Method: _reader(*args, **kwargs)
+  Method: start(*args, **kwargs)
+  Method: send(*args, **kwargs)
+  Method: stop(*args, **kwargs)
+Class: UI
+Class: UserPaginationView
+  Method: get_embed(*args, **kwargs)
+  Method: previous_callback(self, interaction: discord_bot.interactions.Interaction)
+  Method: next_callback(self, interaction: discord_bot.interactions.Interaction)
+  Method: update_buttons(*args, **kwargs)
+  Method: to_components(self) -> 'List[Dict[str, Any]]'
+  Method: add_item(self, item: 'Item[Any]') -> 'Self'
+  Method: remove_item(self, item: 'Item[Any]') -> 'Self'
+  Method: clear_items(self) -> 'Self'
+  Method: _is_layout(self) -> 'TypeGuard[LayoutView]'
+  Method: _init_children(self) -> 'List[Item[Self]]'
+  Method: _BaseView__timeout_task_impl(self) -> 'None'
+  Method: is_dispatchable(self) -> 'bool'
+  Method: has_components_v2(self) -> 'bool'
+  Method: _refresh_timeout(self) -> 'None'
+  Method: find_item(self, id: 'int', /) -> 'Optional[Item[Self]]'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: on_timeout(self) -> 'None'
+  Method: on_error(self, interaction: 'Interaction', error: 'Exception', item: 'Item[Any]', /) -> 'None'
+  Method: _scheduled_task(self, item: 'Item', interaction: 'Interaction')
+  Method: _start_listening_from_store(self, store: 'ViewStore') -> 'None'
+  Method: _dispatch_timeout(self)
+  Method: _dispatch_item(self, item: 'Item', interaction: 'Interaction')
+  Method: _refresh(self, components: 'List[Component]') -> 'None'
+  Method: stop(self) -> 'None'
+  Method: is_finished(self) -> 'bool'
+  Method: is_dispatching(self) -> 'bool'
+  Method: is_persistent(self) -> 'bool'
+  Method: wait(self) -> 'bool'
+  Method: walk_children(self) -> 'Generator[Item[Any], None, None]'
+Class: UserProfileCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: UtilsCommands*
+  Method: _convert_to_locale_strings(self) -> 'None'
+  Method: _copy_with(self, *, parent: 'Optional[Group]', binding: 'Binding', bindings: 'MutableMapping[Group, Group]' = ..., set_on_binding: 'bool' = True) -> 'Group'
+  Method: get_translated_payload(self, tree: 'CommandTree[ClientT]', translator: 'Translator') -> 'Dict[str, Any]'
+  Method: to_dict(self, tree: 'CommandTree[ClientT]') -> 'Dict[str, Any]'
+  Method: _get_internal_command(self, name: 'str') -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: walk_commands(self) -> 'Generator[Union[Command[Any, ..., Any], Group], None, None]'
+  Method: on_error(self, interaction: 'Interaction', error: 'AppCommandError', /) -> 'None'
+  Method: error(self, coro: 'ErrorFunc') -> 'ErrorFunc'
+  Method: interaction_check(self, interaction: 'Interaction', /) -> 'bool'
+  Method: add_command(self, command: 'Union[Command[Any, ..., Any], Group]', /, *, override: 'bool' = False) -> 'None'
+  Method: remove_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: get_command(self, name: 'str', /) -> 'Optional[Union[Command[Any, ..., Any], Group]]'
+  Method: command(self, *, name: 'Union[str, locale_str]' = ..., description: 'Union[str, locale_str]' = ..., nsfw: 'bool' = False, auto_locale_strings: 'bool' = True, extras: 'Dict[Any, Any]' = ...) -> 'Callable[[CommandCallback[GroupT, P, T]], Command[GroupT, P, T]]'
+Class: WebLoginApi
+  Method: set_window(*args, **kwargs)
+  Method: hide(*args, **kwargs)
+  Method: close(*args, **kwargs)
+  Method: url_change_callback(*args, **kwargs)
+  Method: add_acc_url_change(*args, **kwargs)
+  Method: saveTokenToConfig(*args, **kwargs)
+  Method: addTokenToAccounts(self, token: str, profileName: str)
+Class: WebSocketClient*
+  Method: connect(self, key: str, uuid: str, user_id: str, info_data: dict)
+  Method: safe_task(self, coro)
+  Method: heartbeat(self)
+  Method: listen(self)
+  Method: send(self, message)
+  Method: manual_reconnect(self)
+  Method: reconnect(self)
+  Method: close(self)
+  Method: process_discoverables(*args, **kwargs)
+  Method: notify_status_change(*args, **kwargs)
+Class: _TocFilesystem
+  Method: _get_tree_node(self, path)
+  Method: path_exists(self, path)
+  Method: path_isdir(self, path)
+  Method: path_listdir(self, path)
+Class: app_manager*
+  Method: get_apps(*args, **kwargs) -> None
+  Method: create(*args, **kwargs) -> None
+  Method: add_icon_to_app(*args, **kwargs) -> None
+  Method: update_application_settings(self, app_id: int) -> None
+  Method: get_bot_token(*args, **kwargs) -> None
+  Method: upload_asset(*args, **kwargs) -> None
+  Method: get_asset(*args, **kwargs) -> None
+  Method: get_assets(*args, **kwargs) -> None
+  Method: delete_asset(*args, **kwargs) -> None
+  Method: get_bot_user(self) -> None
+  Method: close(*args, **kwargs) -> None
+Class: server_creator
+  Method: create(*args, **kwargs) -> None
+Function: imagine(ctx, *, prompt: str)
+Function: main()
+Function: _iter_pyi_frozen_file_finder_modules(finder, prefix='')
+Function: __init__(self, module)
+Function: _freeze_support()
+Function: _pyi_getsourcefile(object)
+Function: isAdmin(*args, **kwargs)
+Function: <lambda>()
+Function: getUUID(*args, **kwargs)
+Function: encryptRSA(*args, **kwargs)
+Function: getSpySettings(*args, **kwargs)
+Function: saveSpySettings(*args, **kwargs)
+Function: getTranslateSettings(*args, **kwargs)
+Function: saveTranslateSettings(*args, **kwargs)
+Function: initialize_forceprivate(*args, **kwargs)
+Function: getForcePrivateCommands(*args, **kwargs)
+Function: save_forceprivate_commands(*args, **kwargs)
+Function: addForcePrivateCommand(*args, **kwargs)
+Function: removeForcePrivateCommand(*args, **kwargs)
+Function: addContextFileFeature(*args, **kwargs)
+Function: removeContextFileFeature(*args, **kwargs)
+Function: handle_exception(*args, **kwargs)
+Function: setup_logging()
+Function: isTokenValid(token)
+Function: updateWebConfig(*args, **kwargs)
+Function: getThemeData(*args, **kwargs)
+Function: addKeyword(*args, **kwargs)
+Function: removeKeyword(*args, **kwargs)
+Function: addEnabledScript(*args, **kwargs)
+Function: removeEnabledScript(*args, **kwargs)
+Function: addBlockedDiscoverable(*args, **kwargs)
+Function: removeBlockedDiscoverable(*args, **kwargs)
+Function: getCurrentToken(*args, **kwargs)
+Function: getSniperTokens(*args, **kwargs)
+Function: getActiveProfile(*args, **kwargs)
+Function: getActiveProfileName(*args, **kwargs)
+Function: buildThemeV2(*args, **kwargs) -> list
+Function: setActiveProfile(*args, **kwargs)
+Function: getFileCreatedAt(*args, **kwargs)
+Function: isNSFW(*args, **kwargs)
+Function: getSlashCommand(*args, **kwargs)
+Function: fetchSlashCommand(channel, app_id, command_name)
+Function: execSlashCommand(channel, cmd, *args, **kwargs)
+Function: forwardEmbedMethod(channel_id: int, content: str = None, title=None, image=None, thumb=True)
+Function: forwardTextMethod(channel_id: int, content: str)
+Function: execute_js_via_websocket(*args, **kwargs)
+Function: evaluate_js(*args, **kwargs)
+Function: generate_tailwind_classes(*args, **kwargs)
+Function: _gap_validator(*args, **kwargs)
+Function: variant_validator(*args, **kwargs)
+Function: margin_padding_validator(*args, **kwargs)
+Function: ui_element_instance_checker(*args, **kwargs)
+Function: __items_validator(self, items)
+Function: __keys_validator(self, keys)
+Function: __rows_setter(*args, **kwargs)
+Function: __toggle_row_selection(*args, **kwargs)
+Function: __get_selected_rows_ids(*args, **kwargs)
+Function: __rows_validator(*args, **kwargs)
+Function: size(self)
+Function: weight(self)
+Function: content(self)
+Function: color(self)
+Function: align(self)
+Function: margin(self)
+Function: visible(self)
+Function: label(self)
+Function: variant(self)
+Function: full_width(self)
+Function: disabled(self)
+Function: loading(self)
+Function: onClick(self)
+Function: value(self)
+Function: placeholder(self)
+Function: description(self)
+Function: onInput(self)
+Function: show_clear_button(self)
+Function: invalid(self)
+Function: readonly(self)
+Function: required(self)
+Function: error_message(self)
+Function: alt(self)
+Function: width(self)
+Function: height(self)
+Function: rounded(self)
+Function: fill_type(self)
+Function: border_color(self)
+Function: border_width(self)
+Function: url(self)
+Function: checked(self)
+Function: onChange(self)
+Function: items(self)
+Function: mode(self)
+Function: disabled_items(self)
+Function: selected_items(self)
+Function: selected_row_ids(self)
+Function: search(self)
+Function: items_per_page(self)
+Function: selectable(self)
+Function: rows(self)
+Function: onSelectionChange(self)
+Function: updateLastSeen(*args, **kwargs)
+Function: truncate_string(*args, **kwargs)
+Function: convert_custom_emojis(*args, **kwargs)
+Function: getOS(*args, **kwargs)
+Function: requestAppToken(*args, **kwargs)
+Function: gradientStart(self)
+Function: gradientEnd(self)
+Function: bgColor(self)
+Function: __validate_name(*args, **kwargs)
+Function: __getFormattedData(*args, **kwargs)
+Function: __update(*args, **kwargs)
+Function: __perform_update(*args, **kwargs)
+Function: gap(self)
+Function: type(self)
+Function: parent_tab(self)
+Function: name(self)
+Function: title(self)
+Function: iconURL(self)
+Function: toggleNightyDiscoverable(*args, **kwargs)
+Function: getScriptCodeData(*args, **kwargs)
+Function: get_metadata_from_decorator(*args, **kwargs)
+Function: getLocalScripts(*args, **kwargs)
+Function: getGoogleLanguages(name=None, lang_code=None)
+Function: googleTranslate(text, source='auto', to='en')
+Function: getNightyBadges()
+Function: reloadBot()
+Function: getFriendsBackup(*args, **kwargs)
+Function: getServersBackup(*args, **kwargs)
+Function: getGIFsBackup(*args, **kwargs)
+Function: getThemesData(*args, **kwargs)
+Function: getReadableUptime(*args, **kwargs)
+Function: getServerInvite(server)
+Function: backupServers(title, interaction)
+Function: accountBackup()
+Function: backupSettings()
+Function: backupGIFs()
+Function: restoreGIFs(user)
+Function: editNightyApp(name: str = None, avatar_url: str = None, banner_url: str = None)
+Function: getAppData(*args, **kwargs)
+Function: __new__(cls)
+Function: restoreFriends()
+Function: restoreServers(servers)
+Function: findSticker(*args, **kwargs)
+Function: getSize(*args, **kwargs)
+Function: addCommandAlias(alias_name, command_name)
+Function: removeCommandAlias(alias_name)
+Function: fetchAccessToken(connection)
+Function: getSpotifyHeaders()
+Function: getLyricFromProgress(*args, **kwargs)
+Function: getSpotifyCurrentSong()
+Function: playSpotifySongByUri(uri: str)
+Function: addSpotifySongToQueue(uri: str)
+Function: setSpotifyPlaybackState(state: str)
+Function: extractDRPCBotValues(text)
+Function: addDRPCValue(*args, **kwargs)
+Function: getDiscoverablesCount(*args, **kwargs)
+Function: getOnlineNightyUsers(*args, **kwargs)
+Function: getOnlineDiscoverablesCount(*args, **kwargs)
+Function: getDRPCValues(*args, **kwargs)
+Function: processDRPCData(*args, **kwargs)
+Function: processDThemeData(*args, **kwargs)
+Function: get_custom_emojis(*args, **kwargs)
+Function: print(*args, **kwargs)
+Function: isNotActiveDiscord(*args, **kwargs)
+Function: showToast(*args, **kwargs)
+Function: sendAppNotification(*args, **kwargs)
+Function: runDefaultCommandError(ctx, error, title)
+Function: sendWebhookNotification(webhook_url, title, text=None)
+Function: dmToClientUser(title, content)
+Function: listdirs(*args, **kwargs)
+Function: removeRandomChars(*args, **kwargs)
+Function: setUserProfileState(*args, **kwargs)
+Function: getRPCProfileData(profile_name)
+Function: getUserProfileDict(profile_name)
+Function: saveUserProfileData(*args, **kwargs)
+Function: renameUserProfileName(*args, **kwargs)
+Function: deleteUserProfileByName(profile_name)
+Function: setActiveRPCProfile(*args, **kwargs)
+Function: editRPCProfile(profile_name, title=<object object at 0x0000029E696944C0>, activity_type=<object object at 0x0000029E696944C0>, state=<object object at 0x0000029E696944C0>, details=<object object at 0x0000029E696944C0>, large_image=<object object at 0x0000029E696944C0>, large_text=<object object at 0x0000029E696944C0>, small_image=<object object at 0x0000029E696944C0>, small_text=<object object at 0x0000029E696944C0>, button_text=<object object at 0x0000029E696944C0>, button_url=<object object at 0x0000029E696944C0>, button2_text=<object object at 0x0000029E696944C0>, button2_url=<object object at 0x0000029E696944C0>, timer=<object object at 0x0000029E696944C0>, start=<object object at 0x0000029E696944C0>, end=<object object at 0x0000029E696944C0>, party=<object object at 0x0000029E696944C0>, platform=<object object at 0x0000029E696944C0>, stream_url=<object object at 0x0000029E696944C0>)
+Function: startRPCTimer(*args, **kwargs)
+Function: get_elapsed_time_unix(*args, **kwargs)
+Function: getRPCParty(party=None)
+Function: getAsset(app_id, key)
+Function: getAppAssets(*args, **kwargs)
+Function: uploadAsset(name, base64_str)
+Function: deleteAsset(name)
+Function: loadScripts(*args, **kwargs)
+Function: unloadScripts(*args, **kwargs)
+Function: reloadAllScripts(*args, **kwargs)
+Function: toggleScriptState(*args, **kwargs)
+Function: getRPCPreset(*args, **kwargs)
+Function: renameRPCPreset(*args, **kwargs)
+Function: deleteRPCPreset(*args, **kwargs)
+Function: getAllRPCPresetNames(*args, **kwargs)
+Function: setRPCPreset(*args, **kwargs)
+Function: commandSort(*args, **kwargs)
+Function: showCmds(interaction, group)
+Function: botCmd(interaction, author: str = None, text: str = None, thumb: str = None, followup=False, image_url=None, show_thumb=True)
+Function: editBotCmd(interaction, author: str, text: str, thumb: str = None)
+Function: embedImage(interaction: discord_bot.interactions.Interaction, content: Union[str, NoneType] = None, title: Union[str, NoneType] = None, image_url: Union[str, NoneType] = None, thumb: bool = False, private: bool = False)
+Function: maskString(*args, **kwargs)
+Function: morseTranslate(*args, **kwargs)
+Function: execRemoteCommand(channel, cmd)
+Function: before(*args, **kwargs)
+Function: after(*args, **kwargs)
+Function: get_app_id(token)
+Function: getAppID(*args, **kwargs)
+Function: is_account_valid(token)
+Function: isAccountValid(*args, **kwargs)
+Function: get_theme_path(*args, **kwargs)
+Function: rename_theme(*args, **kwargs)
+Function: get_script_path(*args, **kwargs)
+Function: rename_script(*args, **kwargs)
+Function: createApp(*args, **kwargs)
+Function: autoApp(*args, **kwargs)
+Function: updateApp(name: str = None, avatar: str = None)
+Function: open_file_in_explorer(*args, **kwargs)
+Function: showWelcome(*args, **kwargs)
+Function: getCreatedApp(*args, **kwargs)
+Function: check_app_id(*args, **kwargs)
+Function: is_discord_bot_token_valid(*args, **kwargs)
+Function: is_discord_token_valid(*args, **kwargs)
+Function: login_required(f)
+Function: serve_login_page(*args, **kwargs)
+Function: login_page()
+Function: logout()
+Function: after_request(response)
+Function: handle_preflight()
+Function: handle_connect()
+Function: handle_execute_js(data)
+Function: handle_disconnect()
+Function: serve_react()
+Function: serve_static(path)
+Function: serve_fonts(filename)
+Function: generic_api_handler(method_name)
+Function: batch_api_handler()
+Function: endpoint_exists(*args, **kwargs)
+Function: addWebviewFunction(*args, **kwargs)
+Function: safe_add_individual_route(*args, **kwargs)
+Function: serve_bridge_js()
+Function: notifyNitroSnipe(msg)
+Function: escape_markdown(*args, **kwargs) -> str
+Function: removeSpoilers(*args, **kwargs) -> str
+Function: getActiveCtxMenus(*args, **kwargs)
+Function: extract_chat_response(*args, **kwargs)
+Function: Nighty2()
+Function: addFirewallRules(*args, **kwargs)
+Function: startWebview(*args, **kwargs)
+Function: startFlaskServer(*args, **kwargs)
+Function: handle_uncaught_exception(*args, **kwargs)
+Function: on_load(*args, **kwargs)
+Function: on_closed(*args, **kwargs)
+Function: checkTurboSniper(*args, **kwargs)
+Function: checkfonts(*args, **kwargs)
+Function: checksounds(*args, **kwargs)
+Function: updateLyrics(lyrics, progress)
+Function: on_ready()
+Function: on_app_command_completion(interaction, command)
+Function: onSocketRawReceive(msg)
+Function: onReady()
+Function: nightyScript(**kwargs)
+Function: extractSpotifyTrackID(*args, **kwargs)
+Function: spotifySongSearch(search: str, limit=1)
+Function: getClientActivity(*args, **kwargs)
+Function: saveClientActivity(*args, **kwargs)
+Function: getHourlyActivity(*args, **kwargs)
+Function: saveHourlyActivity(*args, **kwargs)
+Function: getExternalAsset(asset_url, app_id)
+Function: getRPCAssets(rpc_data)
+Function: executeUserPreset(preset, active_profile, index)
+Function: updateUserProfile()
+Function: updateConfigData(*args, **kwargs)
+Function: patched_reconnect(self)
+Function: delayed_reconnect(self)
+Function: patchedConnect(self, key: str, uuid: str, user_id: str, info_data: dict)
+Function: _connect_loop(self, key: str, uuid: str, user_id: str, info_data: dict, initial_delay: int)
+Function: askAI(query: str, system: str = 'Respond short, naturally and directly.')
+Function: backupServersDaily()
+Function: createFullBackup()
+Function: strToMs(*args, **kwargs)
+Function: getSongLyrics(*args, **kwargs)
+Function: save_insights_data(*args, **kwargs)
+Function: load_insights_data()
+Function: on_message(message)
+Function: onMessage(message)
+Function: onDisconnect()
+Function: onVoiceUpdate(member, before, after)
+Function: onCommand(ctx)
+Function: onCommandError(ctx, error)
+Function: onCommandCompleted(ctx)
+Function: onSpamDetection(message)
+Function: onMessageEdit(before, after)
+Function: onMessageDeleted(message)
+Function: onGiveawayDetection(message)
+Function: onRelationshipAdd(relation)
+Function: onRelationshipRemoved(relation)
+Function: onRelationshipUpdated(before, after)
+Function: onGuildJoin(guild)
+Function: onGuildRemoved(guild)
+Function: onGuildUpdate(before, after)
+Function: onUserUpdate(before, after)
+Function: onMemberUpdate(before, after)
+Function: onGroupRemoved(channel, user)
+Function: onRawReactionAdd(payload)
+Function: onReactionAdd(reaction, user)
+Function: onMemberJoin(member)
+Function: onTyping(channel, user, when)
+Function: AIReplies(message)
+Function: onTranslatedMessage(message)
+Function: onGuildJoined(guild)
+Function: onRawMessageAck(payload: discord.raw_models.RawMessageAckEvent)
+Function: triggerOnConnect()
+Function: snipe_ctx(interaction: discord_bot.interactions.Interaction, message: discord_bot.message.Message)
+Function: addContextMenu(name: str)
+Function: removeContextMenu(name: str)
+Function: autocomplete_themes(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_none(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_userprofiles(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_selfcommands(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_scripts(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_backupaccounts(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_codemarkup(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_servers(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_servers_owner(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_users(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_channels(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_voicechannels(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_googlelanguages(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_tolanguages(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_ctxmenu(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_spotifyaccounts(interaction: discord_bot.interactions.Interaction, current: str)
+Function: autocomplete_serverinsights(interaction: discord.interactions.Interaction, current: str) -> List[discord_bot.app_commands.models.Choice[str]]
+Function: autocomplete_dminsights(interaction: discord.interactions.Interaction, current: str) -> List[discord_bot.app_commands.models.Choice[str]]
+Function: autocomplete_favorites(interaction: discord.interactions.Interaction, current: str) -> List[discord_bot.app_commands.models.Choice[str]]
+Function: helpCmd(interaction, category: str)
+Function: contextmenu(interaction: discord_bot.interactions.Interaction, mode: str, feature: str = None)
+Function: embed_cmd(interaction: discord_bot.interactions.Interaction, content: Union[str, NoneType] = None, title: Union[str, NoneType] = None, image_url: Union[str, NoneType] = None, thumb: bool = True, private: bool = False, delete_after: float = None)
+Function: sendtext_cmd(interaction: discord_bot.interactions.Interaction, text: str, private: bool = False)
+Function: kick(self, interaction: discord_bot.interactions.Interaction, member: discord_bot.member.Member, reason: str = None)
+Function: ban(self, interaction: discord_bot.interactions.Interaction, member: discord_bot.member.Member, reason: str = None)
+Function: softban(self, interaction: discord_bot.interactions.Interaction, member: discord_bot.member.Member, reason: str = None)
+Function: hackban(self, interaction: discord_bot.interactions.Interaction, user_id: str, reason: str = None)
+Function: unban(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User, reason: str = None)
+Function: bans(self, interaction: discord_bot.interactions.Interaction)
+Function: timeout(self, interaction: discord_bot.interactions.Interaction, member: discord_bot.member.Member, minutes: int, reason: str = None)
+Function: removetimeout(self, interaction: discord_bot.interactions.Interaction, member: discord_bot.member.Member, reason: str = None)
+Function: purge(self, interaction: discord_bot.interactions.Interaction, amount: Union[int, NoneType] = 1, user: Union[discord_bot.user.User, NoneType] = None, keyword: Union[str, NoneType] = None, until: Union[str, NoneType] = None)
+Function: slowmode(self, interaction: discord_bot.interactions.Interaction, seconds: int)
+Function: nuke(self, interaction: discord_bot.interactions.Interaction)
+Function: addallroles(self, interaction: discord_bot.interactions.Interaction, member: discord_bot.member.Member)
+Function: removeallroles(self, interaction: discord_bot.interactions.Interaction, member: discord_bot.member.Member)
+Function: createchannel(self, interaction: discord_bot.interactions.Interaction, channel_type: str, name: str, reason: str = None)
+Function: _100(self, interaction: discord_bot.interactions.Interaction)
+Function: abc(self, interaction: discord_bot.interactions.Interaction)
+Function: bomb(self, interaction: discord_bot.interactions.Interaction)
+Function: fuckyou(self, interaction: discord_bot.interactions.Interaction)
+Function: readrules(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: virus(self, interaction: discord_bot.interactions.Interaction, virus_type: str = 'trojan')
+Function: warning(self, interaction: discord_bot.interactions.Interaction)
+Function: emojireact(self, interaction: discord_bot.interactions.Interaction, text: str, channel_id: str = None)
+Function: mreact(self, interaction: discord_bot.interactions.Interaction, emoji: str, amount: int)
+Function: spamreact(self, interaction: discord_bot.interactions.Interaction, emojis: str)
+Function: tts(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: cycle(self, interaction: discord_bot.interactions.Interaction, cycle_type: str, text: str, channel: Union[discord_bot.channel.TextChannel, NoneType] = None, role: Union[discord_bot.role.Role, NoneType] = None, member: Union[discord_bot.member.Member, NoneType] = None)
+Function: feed(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: hug(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: kiss(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: pat(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: slap(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: wink(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: respect(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: number(self, interaction: discord_bot.interactions.Interaction, min: int, max: int)
+Function: advice(self, interaction: discord_bot.interactions.Interaction)
+Function: animalfact(self, interaction: discord_bot.interactions.Interaction, animal: str)
+Function: coinflip(self, interaction: discord_bot.interactions.Interaction)
+Function: joke(self, interaction: discord_bot.interactions.Interaction)
+Function: question(self, interaction: discord_bot.interactions.Interaction)
+Function: kanye(self, interaction: discord_bot.interactions.Interaction)
+Function: dice(self, interaction: discord_bot.interactions.Interaction)
+Function: rps(self, interaction: discord_bot.interactions.Interaction)
+Function: img2gif(self, interaction: discord_bot.interactions.Interaction, image: discord_bot.message.Attachment)
+Function: user_cmd(self, interaction: discord_bot.interactions.Interaction, asset: str, user: discord_bot.user.User)
+Function: member_img_cmd(self, interaction: discord_bot.interactions.Interaction, asset: str, member: discord_bot.user.User)
+Function: server_cmd(self, interaction: discord_bot.interactions.Interaction, asset: str, server_id: Union[str, NoneType] = None)
+Function: fakecomment(self, interaction: discord_bot.interactions.Interaction, social: str, user: discord_bot.user.User, comment: str)
+Function: pikachu(self, interaction: discord_bot.interactions.Interaction)
+Function: pornhub(self, interaction: discord_bot.interactions.Interaction, text: str, text_2: str)
+Function: nsfw_cmd(self, interaction: discord_bot.interactions.Interaction)
+Function: ass(self, interaction: discord_bot.interactions.Interaction)
+Function: boobs(self, interaction: discord_bot.interactions.Interaction)
+Function: pussy(self, interaction: discord_bot.interactions.Interaction)
+Function: hentai(self, interaction: discord_bot.interactions.Interaction)
+Function: pgif(self, interaction: discord_bot.interactions.Interaction)
+Function: customcommands(self, interaction: discord_bot.interactions.Interaction)
+Function: restart(self, interaction: discord_bot.interactions.Interaction)
+Function: shutdown(self, interaction: discord_bot.interactions.Interaction)
+Function: riskmode(self, interaction: discord_bot.interactions.Interaction, toggle: str)
+Function: forceprivate(self, interaction: discord_bot.interactions.Interaction, mode: str, command: str)
+Function: uptime(self, interaction: discord_bot.interactions.Interaction)
+Function: history(self, interaction: discord_bot.interactions.Interaction, clear: Union[str, NoneType] = None)
+Function: daily(self, interaction: discord.interactions.Interaction, toggle: str)
+Function: backup(self, interaction: discord_bot.interactions.Interaction, backup_type: str)
+Function: restore(self, interaction: discord_bot.interactions.Interaction, restore_type: str, account: str)
+Function: toggle(self, interaction: discord_bot.interactions.Interaction, toggle: str)
+Function: active(self, interaction: discord_bot.interactions.Interaction, profile: str)
+Function: webhooknotifications(self, interaction: discord_bot.interactions.Interaction, event_type: discord_bot.app_commands.models.Choice[str], url: str)
+Function: sessionspoof(self, interaction: discord_bot.interactions.Interaction, session: str)
+Function: theme(self, interaction: discord_bot.interactions.Interaction, theme_name: Union[str, NoneType] = None, title: Union[str, NoneType] = None, footer: Union[str, NoneType] = None, image: Union[str, NoneType] = None, author_icon: Union[str, NoneType] = None, footer_icon: Union[str, NoneType] = None, large_image: Union[str, NoneType] = None, color: Union[str, NoneType] = None)
+Function: themes(self, interaction: discord_bot.interactions.Interaction, method: str, theme_name: Union[str, NoneType] = None)
+Function: webhookpings(self, interaction: discord_bot.interactions.Interaction, toggle: str)
+Function: webhookprofile(self, interaction: discord_bot.interactions.Interaction, method: discord_bot.app_commands.models.Choice[str], value: str)
+Function: webhooksetup(self, interaction: discord_bot.interactions.Interaction, server: str)
+Function: prefix(self, interaction: discord_bot.interactions.Interaction, new_prefix: str)
+Function: deletetimer(self, interaction: discord_bot.interactions.Interaction, seconds: Union[int, NoneType] = None)
+Function: appedit(self, interaction: discord_bot.interactions.Interaction, name: Union[str, NoneType] = None, avatar: Union[str, NoneType] = None, banner: Union[str, NoneType] = None)
+Function: nsfw_settings_cmd(self, interaction: discord_bot.interactions.Interaction, toggle: str)
+Function: select(self, interaction: discord_bot.interactions.Interaction, account: str)
+Function: currentsong(self, interaction: discord_bot.interactions.Interaction, url_only: Union[str, NoneType] = 'no')
+Function: playback(self, interaction: discord_bot.interactions.Interaction, state: str)
+Function: playbackrepeat(self, interaction: discord_bot.interactions.Interaction, state: str)
+Function: playbackshuffle(self, interaction: discord_bot.interactions.Interaction, state: str)
+Function: zalgo(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: italic(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: upsidedown(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: morse(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: owo(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: smart(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: regional(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: space(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: vape(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: spoiler(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: reverse(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: hyperlink(self, interaction: discord_bot.interactions.Interaction, text: str, url: str)
+Function: semoji(self, interaction: discord_bot.interactions.Interaction, emoji: str, text: str)
+Function: codeblock(self, interaction: discord_bot.interactions.Interaction, code: str, text: str)
+Function: hiddenping(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User, text: str)
+Function: hiddenlink(self, interaction: discord_bot.interactions.Interaction, url: str, text: str)
+Function: convert(self, interaction: discord_bot.interactions.Interaction, conversion: discord_bot.app_commands.models.Choice[str], value: str)
+Function: friendinvite(self, interaction: discord_bot.interactions.Interaction)
+Function: voicealert(self, interaction: discord_bot.interactions.Interaction, mode: str, channel: Union[str, NoneType] = None, channel_id: Union[str, NoneType] = None)
+Function: user(self, interaction: discord_bot.interactions.Interaction, user: Union[str, NoneType] = None, user_id: Union[str, NoneType] = None)
+Function: member(self, interaction: discord_bot.interactions.Interaction, member: discord_bot.member.Member)
+Function: serverinfo(self, interaction: discord_bot.interactions.Interaction, server: str = None)
+Function: tokeninfo(self, interaction: discord_bot.interactions.Interaction, token: str)
+Function: roleinfo(self, interaction: discord_bot.interactions.Interaction, role: discord_bot.role.Role)
+Function: channelinfo(self, interaction: discord_bot.interactions.Interaction, channel: Union[str, NoneType] = None, channel_id: Union[str, NoneType] = None)
+Function: webhookinfo(self, interaction: discord_bot.interactions.Interaction, webhook_url: str)
+Function: stickerinfo(self, interaction: discord_bot.interactions.Interaction, sticker_name: str)
+Function: emoji_info(self, interaction: discord_bot.interactions.Interaction, emoji_name: str, server_id: Union[str, NoneType] = None)
+Function: inviteinfo(self, interaction: discord_bot.interactions.Interaction, invite: str)
+Function: nitro(self, interaction: discord_bot.interactions.Interaction, amount: int)
+Function: token(self, interaction: discord_bot.interactions.Interaction)
+Function: password(self, interaction: discord_bot.interactions.Interaction, length: int = 14)
+Function: weather(self, interaction: discord_bot.interactions.Interaction, city: str)
+Function: crypto(self, interaction: discord_bot.interactions.Interaction, currency_code: str)
+Function: ip(self, interaction: discord_bot.interactions.Interaction, address: str)
+Function: urban(self, interaction: discord_bot.interactions.Interaction, term: str)
+Function: google(self, interaction: discord_bot.interactions.Interaction, search: str)
+Function: youtube(self, interaction: discord_bot.interactions.Interaction, search: str)
+Function: song(self, interaction: discord_bot.interactions.Interaction, search: str)
+Function: mcserver(self, interaction: discord_bot.interactions.Interaction, address: str)
+Function: server(self, interaction: discord_bot.interactions.Interaction, lookup_type: discord_bot.app_commands.models.Choice[str], server: str = None)
+Function: attachments(self, interaction: discord_bot.interactions.Interaction, channel_id: str, message_id: str)
+Function: chat(self, interaction: discord.interactions.Interaction, amount: int, channel: Union[str, NoneType] = None, channel_id: Union[str, NoneType] = None)
+Function: emojis(self, interaction: discord_bot.interactions.Interaction, server: str = None)
+Function: stickers(self, interaction: discord_bot.interactions.Interaction, server: str = None)
+Function: force(self, interaction: discord_bot.interactions.Interaction, force_type: discord_bot.app_commands.models.Choice[str], member: discord_bot.member.Member, nick: Union[str, NoneType] = None)
+Function: mimic(self, interaction: discord_bot.interactions.Interaction, mimic_type: discord_bot.app_commands.models.Choice[str], user: discord_bot.user.User)
+Function: noleave(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: spy(self, interaction: discord_bot.interactions.Interaction, method: str, user: Union[discord_bot.user.User, NoneType] = None)
+Function: empty(self, interaction: discord_bot.interactions.Interaction)
+Function: fakenitro(self, interaction: discord_bot.interactions.Interaction)
+Function: purgehack(self, interaction: discord_bot.interactions.Interaction)
+Function: voicemove(self, interaction: discord_bot.interactions.Interaction, amount: int)
+Function: resend(self, interaction: discord_bot.interactions.Interaction, send_type: str, user: discord_bot.user.User)
+Function: reactuser(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User, emoji: Union[str, NoneType] = None)
+Function: deleteannoy(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: unreact(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: ghostping(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: antighostping(self, interaction: discord_bot.interactions.Interaction, toggle: str, delay: Union[int, NoneType] = 10)
+Function: lastpings_cmd(self, interaction: discord_bot.interactions.Interaction, limit: int)
+Function: cloneserver(self, interaction: discord_bot.interactions.Interaction, clone_from: str, clone_to: str)
+Function: deletewebhook(self, interaction: discord_bot.interactions.Interaction, url: str)
+Function: leaveallgroups(self, interaction: discord_bot.interactions.Interaction)
+Function: firstmessage(self, interaction: discord_bot.interactions.Interaction, channel: Union[str, NoneType] = None, channel_id: Union[str, NoneType] = None)
+Function: translate_cmd(self, interaction: discord_bot.interactions.Interaction)
+Function: autoslash(self, interaction: discord_bot.interactions.Interaction, app_id: str, command_name: str, options: Union[str, NoneType] = None, seconds: Union[int, NoneType] = 15)
+Function: translate_text_cmd(self, interaction: discord_bot.interactions.Interaction, text: str, source: Union[str, NoneType] = 'Detect language', to: Union[str, NoneType] = 'English', mode: Union[str, NoneType] = 'regular')
+Function: autotranslate_cmd(self, interaction: discord_bot.interactions.Interaction, toggle: str, source: Union[str, NoneType] = 'Detect language', to: Union[str, NoneType] = 'English')
+Function: translateuser_cmd(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: translate_settings_cmd(self, interaction: discord_bot.interactions.Interaction, source: Union[str, NoneType] = 'Detect language', to: Union[str, NoneType] = 'English')
+Function: insights_servers(self, interaction: discord_bot.interactions.Interaction, type: str, action: Union[str, NoneType] = None)
+Function: insights_dms(self, interaction: discord_bot.interactions.Interaction, type: str, friends_only: str, action: Union[str, NoneType] = None)
+Function: kickeverywhere(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: baneverywhere(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: timeouteverywhere(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User, duration: int)
+Function: spam_cmd(self, interaction: discord_bot.interactions.Interaction, message: str, amount: Union[int, NoneType] = 5, delay: Union[float, NoneType] = 1.5)
+Function: transferbans_cmd(self, interaction: discord_bot.interactions.Interaction, server: str)
+Function: spp_export_api(f)
+Function: sendToDiscoverable(*args, **kwargs)
+Function: nightyDiscoverable(*args, **kwargs)
+Function: blockDiscoverable(*args, **kwargs)
+Function: getDiscoverables(*args, **kwargs)
+Function: discordJump(*args, **kwargs)
+Function: getDiscordInvite(*args, **kwargs)
+Function: showTooltip(*args, **kwargs)
+Function: updateUISettings(*args, **kwargs)
+Function: getUISettings(*args, **kwargs)
+Function: updateConfig(*args, **kwargs)
+Function: getConfig(*args, **kwargs)
+Function: getAppInfo(*args, **kwargs)
+Function: updateAppinfo(*args, **kwargs)
+Function: switchAccount(*args, **kwargs)
+Function: deleteAccount(*args, **kwargs)
+Function: getCommunityThemes(*args, **kwargs)
+Function: getCommunityScripts(*args, **kwargs)
+Function: getCommunityRPCs(*args, **kwargs)
+Function: getAllSBCommands(*args, **kwargs)
+Function: getUptime(*args, **kwargs)
+Function: getInfoData(*args, **kwargs)
+Function: getDiscordAccounts(*args, **kwargs)
+Function: getUserAvatarUrl(*args, **kwargs)
+Function: getPrefix(*args, **kwargs)
+Function: getUsername(*args, **kwargs)
+Function: toggleUserProfile(*args, **kwargs)
+Function: getRpcPreset(*args, **kwargs)
+Function: getRpcPresetNames(*args, **kwargs)
+Function: updateRpcPreset(*args, **kwargs)
+Function: deleteRpcPreset(*args, **kwargs)
+Function: renameRpcPreset(*args, **kwargs)
+Function: getDynamicValues(*args, **kwargs)
+Function: getUserProfiles(*args, **kwargs)
+Function: getUserProfile(*args, **kwargs)
+Function: saveUserProfile(*args, **kwargs)
+Function: shareRpcPreset(*args, **kwargs)
+Function: shareUserProfile(*args, **kwargs)
+Function: renameUserProfile(*args, **kwargs)
+Function: deleteUserProfile(*args, **kwargs)
+Function: getUserProfileState(*args, **kwargs)
+Function: getUserProfileRunAtStartup(*args, **kwargs)
+Function: help_cmd(interaction: discord_bot.interactions.Interaction, category: discord_bot.app_commands.models.Choice[str] = None)
+Function: overlay_cmd(self, interaction: discord_bot.interactions.Interaction, overlay: str, user: discord_bot.user.User, user_2: Union[discord_bot.user.User, NoneType] = None)
+Function: random_cmd(self, interaction: discord_bot.interactions.Interaction)
+Function: eightball(self, interaction: discord_bot.interactions.Interaction, question: str)
+Function: deathdate(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: dick(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: gay(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: insult(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: iq(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: triggertyping(self, interaction: discord_bot.interactions.Interaction, delay_seconds: int, channel_id: str = None)
+Function: animal_cmd(self, interaction: discord_bot.interactions.Interaction, animal: str)
+Function: meme_cmd(self, interaction: discord_bot.interactions.Interaction, meme: str, text: Union[str, NoneType] = None, text_2: Union[str, NoneType] = None)
+Function: createcommand(self, interaction: discord_bot.interactions.Interaction, name: str, reply: str)
+Function: credits(self, interaction: discord_bot.interactions.Interaction)
+Function: dmlogger(self, interaction: discord_bot.interactions.Interaction, toggle: str)
+Function: muteallservers(self, interaction: discord_bot.interactions.Interaction)
+Function: private_(self, interaction: discord_bot.interactions.Interaction, toggle: str)
+Function: forward_(self, interaction: discord_bot.interactions.Interaction, toggle: str)
+Function: folder(self, interaction: discord_bot.interactions.Interaction)
+Function: nitrosniper(self, interaction: discord_bot.interactions.Interaction, toggle: str)
+Function: gjoiner(self, interaction: discord_bot.interactions.Interaction, toggle: Union[str, NoneType] = None, delay: Union[int, NoneType] = None)
+Function: keywordnotifier(self, interaction: discord_bot.interactions.Interaction, mode: str, keyword: Union[str, NoneType] = None)
+Function: whatsmykey(self, interaction: discord_bot.interactions.Interaction)
+Function: reloadscripts(self, interaction: discord_bot.interactions.Interaction)
+Function: togglescript(self, interaction: discord_bot.interactions.Interaction, toggle: str, script: str)
+Function: deletescript(self, interaction: discord_bot.interactions.Interaction, script: str)
+Function: notifications(self, interaction: discord_bot.interactions.Interaction, event_type: str, toggle: str)
+Function: dmnotifications(self, interaction: discord_bot.interactions.Interaction, event_type: str, toggle: str)
+Function: toastnotifications(self, interaction: discord_bot.interactions.Interaction, event_type: str, toggle: str)
+Function: toastsettings(self, interaction: discord_bot.interactions.Interaction, side: Union[str, NoneType], duration_ms: Union[int, NoneType], image_url: Union[str, NoneType])
+Function: soundnotifications(self, interaction: discord_bot.interactions.Interaction, event_type: str, toggle: str)
+Function: _1337(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: _ascii(self, interaction: discord_bot.interactions.Interaction, text: str)
+Function: info(self, interaction: discord_bot.interactions.Interaction)
+Function: generate(self, interaction: discord_bot.interactions.Interaction)
+Function: lookup(self, interaction: discord_bot.interactions.Interaction)
+Function: dump(self, interaction: discord_bot.interactions.Interaction)
+Function: nickscan(self, interaction: discord_bot.interactions.Interaction)
+Function: revavatar(self, interaction: discord_bot.interactions.Interaction, user: discord_bot.user.User)
+Function: tinyurl(self, interaction: discord_bot.interactions.Interaction, url: str)
+Function: snipe(self, interaction: discord_bot.interactions.Interaction, amount: int = 1, channel: Union[str, NoneType] = None, channel_id: Union[str, NoneType] = None)
+Function: transfer(self, interaction: discord_bot.interactions.Interaction, type: str, transfer_from: str, transfer_to: str)
+Function: ping(self, interaction: discord_bot.interactions.Interaction)
+Function: currency_cmd(self, interaction: discord_bot.interactions.Interaction, source: str, change_to: str, amount: int)
+Function: clean(self, interaction: discord_bot.interactions.Interaction, amount: Union[int, NoneType] = 1, channel: Union[str, NoneType] = None, channel_id: Union[str, NoneType] = None, until: Union[str, NoneType] = None, keyword: Union[str, NoneType] = None)
+Function: schedule(self, interaction: discord_bot.interactions.Interaction, time: str, message: str)
+Function: insights_cmd(self, interaction: discord_bot.interactions.Interaction)
+Function: favorites(self, interaction: discord_bot.interactions.Interaction, type: str, method: str, channel_str: Union[str, NoneType] = None, channel_id: Union[str, NoneType] = None)
+Function: sync(self, interaction: discord_bot.interactions.Interaction, what: discord_bot.app_commands.models.Choice[str], user: discord_bot.user.User)
+Function: hypesquad(self, interaction: discord_bot.interactions.Interaction, house: discord_bot.app_commands.models.Choice[int])
+Function: settings(self, interaction: discord_bot.interactions.Interaction, base_url: Union[str, NoneType] = None, model: Union[str, NoneType] = None, api_key: Union[str, NoneType] = None, chat_history: Union[int, NoneType] = None)
+Function: ask_ai(self, interaction: discord_bot.interactions.Interaction, question: str, edit_mode: str = 'off', m_id: str = None, btn: str = None, system: str = None)
+Function: dm_ai(self, interaction: discord_bot.interactions.Interaction, mode: str, user: Union[discord_bot.user.User, NoneType] = None, everyone: Union[str, NoneType] = 'no', ask_first: Union[str, NoneType] = 'no', system: Union[str, NoneType] = None)
+Function: setUserProfileRunAtStartup(*args, **kwargs)
+Function: getActiveUserProfile(*args, **kwargs)
+Function: setActiveUserProfile(*args, **kwargs)
+Function: getSpotifyStatus(*args, **kwargs)
+Function: searchSpotifySong(*args, **kwargs)
+Function: getActiveServerTag(*args, **kwargs)
+Function: getServerTags(*args, **kwargs)
+Function: getClientAnalytics(*args, **kwargs)
+Function: getHourlyAnalytics(*args, **kwargs)
+Function: getCurrentHourStr(*args, **kwargs)
+Function: getThemes(*args, **kwargs)
+Function: getTheme(*args, **kwargs)
+Function: renameTheme(*args, **kwargs)
+Function: saveTheme(*args, **kwargs)
+Function: shareTheme(*args, **kwargs)
+Function: switchTheme(*args, **kwargs)
+Function: deleteTheme(*args, **kwargs)
+Function: uploadTheme(*args, **kwargs)
+Function: downloadTheme(*args, **kwargs)
+Function: uploadRPC(*args, **kwargs)
+Function: downloadRPC(self, rpcName: str)
+Function: applyTheme(*args, **kwargs)
+Function: getScripts(*args, **kwargs)
+Function: getAllEmojis(*args, **kwargs)
+Function: toggleScript(*args, **kwargs)
+Function: getScriptCode(*args, **kwargs)
+Function: downloadScript(*args, **kwargs)
+Function: saveScript(*args, **kwargs)
+Function: deleteScript(*args, **kwargs)
+Function: uploadScript(*args, **kwargs)
+Function: shareScript(*args, **kwargs)
+Function: rateScript(*args, **kwargs)
+Function: replyToRating(*args, **kwargs)
+Function: deleteReply(*args, **kwargs)
+Function: renameScript(*args, **kwargs)
+Function: reloadScripts(*args, **kwargs)
+Function: revealScript(*args, **kwargs)
+Function: discordWebInstance(*args, **kwargs)
+Function: readyState(*args, **kwargs)
+Function: dismissVersion(*args, **kwargs)
+Function: remoteUpdate(*args, **kwargs)
+Function: reconnectWSS(*args, **kwargs)
+Function: restartNighty(*args, **kwargs)
+Function: revealNightyLog(*args, **kwargs)
+Function: getAltAccounts(*args, **kwargs)
+Function: addAltAccounts(*args, **kwargs)
+Function: removeAltAccounts(*args, **kwargs)
+Function: getGiveawayJoinerData(*args, **kwargs)
+Function: toggleGiveawayJoiner(*args, **kwargs)
+Function: getAllKeywords(*args, **kwargs)
+Function: addToKeywords(*args, **kwargs)
+Function: removeFromKeywords(*args, **kwargs)
+Function: saveKeywords(*args, **kwargs)
+Function: toggleEventNotifications(*args, **kwargs)
+Function: getEventNotifications(*args, **kwargs)
+Function: toggleTurboSniper(*args, **kwargs)
+Function: getGlobalBadges(user_id: str)
+Function: configUpdater()
+Function: discoverables()
+Function: requestCommunityContent()
+Function: stolenRPC()
+Function: serverTagsUpdater()
+Function: subsUpdater()
+Function: rpcUpdater()
+Function: dailyBackup()
+Function: schedulesCheck()
+Function: firstStart()
+Function: profileUpdates()
